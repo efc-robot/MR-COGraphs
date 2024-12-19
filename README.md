@@ -3,6 +3,8 @@
 Coming soon!
 
 ## Dataset
+All the datasets are in the form of rosbag files.
+
 ### Isaac Small Environment
 
 ### Isaac Large Environment
