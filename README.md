@@ -4,7 +4,7 @@ Coming soon!
 
 ## Dataset
 ### Isaac Small & Large Environment
-We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the Isaac Sim platform.
+We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the [Isaac Sim](https://developer.nvidia.com/isaac/sim) platform.
 
 Then, you can use the following command to generate rosbag files:
 ```bash
