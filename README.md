@@ -3,19 +3,37 @@
 Coming soon!
 
 ## Dataset
-All the datasets are in the form of rosbag files.
+### Isaac Small & Large Environment
+We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the Isaac Sim platform.
 
-### Isaac Small Environment
+Then, you can use the following command to generate rosbag files:
+```bash
+# single robot example
+rosbag record /clock /robot1/camera_info_left \
+/robot1/depth_left /robot1/odom /robot1/rgb_left \
+/robot1/imu /robot1/scan /tf -o rosbag_name.bag
+```
 
-### Isaac Large Environment
+```bash
+# two robots example
+rosbag record /clock /robot1/camera_info_left \
+/robot1/depth_left /robot1/odom /robot1/rgb_left \
+/robot1/imu /robot1/scan /robot2/camera_info_left \
+/robot2/depth_left /robot2/odom /robot2/rgb_left \
+/robot2/imu /robot2/scan /tf -o rosbag_name.bag
+```
 
 ### Replica Apartment2 Environment
-single robot: https://cloud.tsinghua.edu.cn/f/e0ac84f0059142a48cd6/
+We develop a [ROS wrapper](https://github.com/efc-robot/replica-ros-wrapper) to extract RGB-D sequences and
+ground-truth poses from the [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset), transforming them into ROS bag files.
 
-two robots: https://cloud.tsinghua.edu.cn/f/960960e5dafc45fba511/?dl=1
+For the replica apartment2 environment, you can directly download the [single-robot rosbag](https://cloud.tsinghua.edu.cn/f/e0ac84f0059142a48cd6/) and the [two-robot rosbag](https://cloud.tsinghua.edu.cn/f/960960e5dafc45fba511/?dl=1).
+
 
 ### Real-world Environment
-
+Our real-world environment is 9m × 9m in size with 3 rooms.
+* Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/) the rosbag file
+* Two-robots: download rosbag files of [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
 
 ## Appendix
 
