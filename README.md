@@ -39,8 +39,10 @@ For the replica apartment2 environment, you can directly download the [single-ro
 
 ### Real-world Environment
 We utilize iPhones (need 12 pro or higher) as the sensor in our framework in two ways.
-One way is to collect data and the transform it into rosbag files, which is in script_offline.py.
-Another way is to continously transform RGB-D and pose information into ROS messages so that they can be published to corrosponding ROS topics. This way allows for our online COGraph construction.
+
+One way is to collect data and transform it into rosbag files shown in script_rosbag.py.
+
+Another way is to continuously transform RGB-D and pose information into ROS messages so that they can be published to corresponding ROS topics. This way allows for our online COGraph construction. Codes are in script_rostopic.py.
 
 The following rosbag files are collected using our real-world environment (9m × 9m in size with 3 rooms):
 * Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/)
@@ -49,6 +51,7 @@ The following rosbag files are collected using our real-world environment (9m ×
 
 ## Appendix
 ### GPU usage information
+
 
 ### How to train the encoder and decoder
 
