@@ -50,7 +50,9 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 
 ## Appendix
 ### GPU usage information
-The GPU usage during the mapping process is shown in gpu_usage_log.txt.
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/gpu_usage.png" alt="描述文本" width="500">
+The GPU utilization during the COGraph generation process is shown above. 
+For detailed metrics, please refer to the log file gpu_usage_log.txt.
 
 ### How to train the encoder and decoder
 
