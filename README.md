@@ -5,7 +5,7 @@ Coming soon!
 ## Dataset
 ### Isaac Small & Large Environment
 
-<img src="[pics/isaac_env.png](https://github.com/efc-robot/MR-COGraphs/blob/main/picture/isaac_env.png)" alt="isaac environments" width="500">
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/isaac_env.png" alt="isaac environments" width="500">
 
 We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the [Isaac Sim](https://developer.nvidia.com/isaac/sim) platform.
 
