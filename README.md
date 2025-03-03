@@ -2,18 +2,14 @@
 ## Code
 Coming soon!
 
-## Video
-### Submitted Video
-
-
-### More 
-
-
 ## Dataset
 ### Isaac Small & Large Environment
+
+<img src="pics/isaac_env.png" alt="描述文本" width="500">
+
 We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the [Isaac Sim](https://developer.nvidia.com/isaac/sim) platform.
 
-Then, you can use the following command to generate rosbag files:
+Once loaded, you can generate rosbag files using the following command:
 ```bash
 # single robot example
 rosbag record /clock /robot1/camera_info_left \
@@ -38,16 +34,19 @@ For the replica apartment2 environment, you can directly download the [single-ro
 
 
 ### Real-world Environment
-We utilize iPhones (need 12 pro or higher) as the sensor in our framework in two ways.
+We integrate iPhones (iPhone 12 Pro or later) as sensors in our framework in two ways:
 
-One way is to collect data and transform it into rosbag files shown in script_rosbag.py.
-
-Another way is to continuously transform RGB-D and pose information into ROS messages so that they can be published to corresponding ROS topics. This way allows for our online COGraph construction. Codes are in script_rostopic.py.
-
-The following rosbag files are collected using our real-world environment (9m × 9m in size with 3 rooms):
+* Data Collection & Conversion: Captured data is processed and converted into rosbag files, as demonstrated in script_rosbag.py.
+* Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in script_rostopic.py.
+  
+Below are the rosbag files collected from our real-world environment, a 9m × 9m space with three rooms:
 * Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/)
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
-  
+
+## Video
+🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/video/MR-COGraphs_video.mp4)
+
+
 
 ## Appendix
 ### GPU usage information
