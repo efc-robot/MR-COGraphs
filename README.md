@@ -40,7 +40,7 @@ For the replica apartment2 environment, you can directly download the [single-ro
 We integrate iPhones (iPhone 12 Pro or later) as sensors in our framework in two ways:
 
 * Data Collection & Conversion: Captured data is processed and converted into rosbag files, as demonstrated in /r3d_to_ROS/r3d_to_rosbag.py.
-* Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in /r3d_to_ROS/record3d_ros_live.
+* Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in /r3d_to_ROS/record3d_ros.zip.
   
 Below are the rosbag files collected from our real-world environment, a 9m × 9m space with three rooms:
 * Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/)
