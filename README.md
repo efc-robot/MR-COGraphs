@@ -2,10 +2,13 @@
 ## Code
 Coming soon!
 
+## Video
+🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/video/MR-COGraphs_video.mp4)
+
 ## Dataset
 ### Isaac Small & Large Environment
 
-<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/isaac_env.png" alt="isaac environments" width="500">
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/isaac_env.png" alt="描述文本" width="500">
 
 We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the [Isaac Sim](https://developer.nvidia.com/isaac/sim) platform.
 
@@ -36,15 +39,12 @@ For the replica apartment2 environment, you can directly download the [single-ro
 ### Real-world Environment
 We integrate iPhones (iPhone 12 Pro or later) as sensors in our framework in two ways:
 
-* Data Collection & Conversion: Captured data is processed and converted into rosbag files, as demonstrated in script_rosbag.py.
-* Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in script_rostopic.py.
+* Data Collection & Conversion: Captured data is processed and converted into rosbag files, as demonstrated in /r3d_to_ROS/r3d_to_rosbag.py.
+* Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in /r3d_to_ROS/r3d_to_rosmsg.py.
   
 Below are the rosbag files collected from our real-world environment, a 9m × 9m space with three rooms:
 * Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/)
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
-
-## Video
-🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/blob/main/video/MR-COGraphs_video.mp4)
 
 
 
