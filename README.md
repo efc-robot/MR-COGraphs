@@ -44,7 +44,7 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
 
 ## Video
-🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/video/MR-COGraphs_video.mp4)
+🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/blob/main/video/MR-COGraphs_video.mp4)
 
 
 
