@@ -47,12 +47,14 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
 
 
-
 ## Appendix
 ### GPU usage information
 <img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/gpu_usage.jpeg" alt="描述文本" width="500">
 The GPU utilization during the COGraph generation process is shown above. 
 For detailed metrics, please refer to the log file gpu_usage_log.txt.
+
+### More Demonstration in the Real-world Environment
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/real_world.png" alt="描述文本" width="500">
 
 ### How to train the encoder and decoder
 
