@@ -3,12 +3,12 @@
 Coming soon!
 
 ## Video
-🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/video/MR-COGraphs_video.mp4)
+🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/videos/MR-COGraphs_video.mp4)
 
 ## Dataset
 ### Isaac Small & Large Environment
 
-<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/isaac_env.png" alt="描述文本" width="500">
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/isaac_env.png" alt="描述文本" width="500">
 
 We provide both small and large environments as USD files, which can be [downloaded](https://cloud.tsinghua.edu.cn/f/b4e29359c3d245339fcc/?dl=1)  and opened in the [Isaac Sim](https://developer.nvidia.com/isaac/sim) platform.
 
@@ -50,7 +50,7 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 
 ## Appendix
 ### GPU usage information
-<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/picture/gpu_usage.png" alt="描述文本" width="500">
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/gpu_usage.png" alt="描述文本" width="500">
 The GPU utilization during the COGraph generation process is shown above. 
 For detailed metrics, please refer to the log file gpu_usage_log.txt.
 
