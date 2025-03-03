@@ -50,7 +50,7 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 
 ## Appendix
 ### GPU usage information
-
+The GPU usage during the mapping process is shown in gpu_usage_log.txt.
 
 ### How to train the encoder and decoder
 
