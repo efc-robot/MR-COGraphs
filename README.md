@@ -55,7 +55,7 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 The GPU utilization during the COGraph generation process is shown above. 
 For detailed metrics, please refer to the log file gpu_usage_log.txt.
 
-### More Demonstrations in the Real-world Environment
+### More Demonstrations
 <img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/real_world2.png" alt="描述文本" width="500">
 We have also conducted tests of our system in a more expansive real-world setting, featuring a corridor and three rooms. 
 The illustration below depicts the nodes created by robot1 in the COGraph, along with the merged nodes contributed by robot1 and robot2.
