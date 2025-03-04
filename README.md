@@ -41,7 +41,9 @@ We integrate iPhones (iPhone 12 Pro or later) as sensors in our framework in two
 
 * Data Collection & Conversion: Captured data is processed and converted into rosbag files, as demonstrated in /r3d_to_ROS/r3d_to_rosbag.py.
 * Real-time Streaming: RGB-D and pose information are continuously transformed into ROS messages and published to the corresponding ROS topics. This enables real-time COGraph construction, implemented in /r3d_to_ROS/record3d_ros.zip.
-  
+
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/real_world1.png" alt="描述文本" width="500">
+
 Below are the rosbag files collected from our real-world environment, a 9m × 9m space with three rooms:
 * Single-robot: [download](https://cloud.tsinghua.edu.cn/f/aaa58ad3a9dd4257933c/)
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
@@ -53,8 +55,11 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 The GPU utilization during the COGraph generation process is shown above. 
 For detailed metrics, please refer to the log file gpu_usage_log.txt.
 
-### More Demonstration in the Real-world Environment
-<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/real_world.png" alt="描述文本" width="500">
+### More Demonstrations in the Real-world Environment
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/real_world2.png" alt="描述文本" width="500">
+We have also conducted tests of our system in a more expansive real-world setting, featuring a corridor and three rooms. 
+The illustration below depicts the nodes created by robot1 in the COGraph, along with the merged nodes contributed by robot1 and robot2.
+<img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/visualization.png" alt="描述文本" width="500">
 
 ### How to train the encoder and decoder
 
