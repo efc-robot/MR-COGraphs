@@ -8,7 +8,7 @@ Coming soon!
 <details>
   <summary>Watch the demo video</summary>
 
-[![Watch the video](https://github.com/efc-robot/MR-COGraphs/issues/1#issuecomment-2709890647)](https://github.com/efc-robot/MR-COGraphs/issues/1#issue-2906503263)
+[![Watch the video](https://github.com/user-attachments/assets/9f9e7811-f0fe-4df8-9776-a64e666f1750)](https://github.com/user-attachments/assets/20a00b0f-ec10-4b30-a2d3-5c6a9f5ea157)
 
 </details>
 
