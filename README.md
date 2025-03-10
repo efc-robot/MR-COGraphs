@@ -5,6 +5,13 @@ Coming soon!
 ## Video
 🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/blob/main/videos/MR-COGraphs_video.mp4)
 
+<details>
+  <summary>Watch the demo video</summary>
+
+[![Watch the video](https://via.placeholder.com/100)](https://github.com/efc-robot/MR-COGraphs/issues/1#issue-2906503263)
+
+</details>
+
 ## Dataset
 ### Isaac Small & Large Environment
 
