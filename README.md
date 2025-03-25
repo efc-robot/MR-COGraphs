@@ -1,8 +1,8 @@
 # MR-COGraphs
-## Code
+## 💻 Code
 Coming soon!
 
-## Video
+## 🎥 Video
 <details>
   <summary>Watch the demo video </summary>
 
@@ -13,7 +13,7 @@ Coming soon!
 Due to size restrictions, the full video can be downloaded here: 
 🎥 [Download the video](https://github.com/efc-robot/MR-COGraphs/blob/main/videos/MR-COGraphs_video.mp4)
 
-## Dataset
+## 🗃️ Dataset
 ### Isaac Small & Large Environment
 
 <img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/isaac_env.png" alt="描述文本" width="500">
@@ -57,7 +57,7 @@ Below are the rosbag files collected from our real-world environment, a 9m × 9m
 * Two-robots: [robot1](https://cloud.tsinghua.edu.cn/f/ac2816e245c74ed0b487/ ) and [robot2](https://cloud.tsinghua.edu.cn/f/d3c97b8064a948a5bd52/).
 
 
-## Appendix
+## 📝 Appendix
 ### GPU usage information
 <img src="https://github.com/efc-robot/MR-COGraphs/blob/main/pictures/gpu_usage.jpeg" alt="描述文本" width="500">
 The GPU utilization during the COGraph generation process is shown above. 
@@ -86,3 +86,14 @@ The output file obtained is imagenet_classes_in_house_last.txt.
 2.Synonym Generation Using Large Language Models: Input the 10 labels identified in step 1 into a large language model (GPT/Kimi) with the prompt "Find synonyms for these words" to generate a list of synonyms for each label, denoted as "Similar" in the Query Type.
 
 3.Descriptive Phrase Generation Using Large Language Models: Input the 10 labels from step 1 into a large language model (GPT/Kimi) with the prompt "Provide brief descriptions in English for these terms" to obtain a set of brief descriptions for each label, labeled as "Descriptive" in the Query Type.
+
+## 🎓 Citation
+If you find our paper and datasets useful, please cite us:
+
+```bibtex
+@article{gu2024mr,
+  title={MR-COGraphs: Communication-efficient Multi-Robot Open-vocabulary Mapping System via 3D Scene Graphs},
+  author={Gu, Qiuyi and Ye, Zhaocheng and Yu, Jincheng and Tang, Jiahao and Yi, Tinghao and Dong, Yuhan and Wang, Jian and Cui, Jinqiang and Chen, Xinlei and Wang, Yu},
+  journal={arXiv preprint arXiv:2412.18381},
+  year={2024}
+}
