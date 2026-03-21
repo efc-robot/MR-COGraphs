@@ -1,6 +1,4 @@
 # MR-COGraphs
-## 💻 Code
-Coming soon!
 
 ## 🎥 Video
 <details>
@@ -91,9 +89,10 @@ The output file obtained is imagenet_classes_in_house_last.txt.
 If you find our paper and datasets useful, please cite us:
 
 ```bibtex
-@article{gu2024mr,
-  title={MR-COGraphs: Communication-efficient Multi-Robot Open-vocabulary Mapping System via 3D Scene Graphs},
+@article{gu2025mr,
+  title={MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs},
   author={Gu, Qiuyi and Ye, Zhaocheng and Yu, Jincheng and Tang, Jiahao and Yi, Tinghao and Dong, Yuhan and Wang, Jian and Cui, Jinqiang and Chen, Xinlei and Wang, Yu},
-  journal={arXiv preprint arXiv:2412.18381},
-  year={2024}
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  publisher={IEEE}
 }
